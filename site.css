@@ -107,7 +107,7 @@ body{
 
 /* Generic card used on solution pages */
 .card{border-radius:12px; overflow:hidden; background:#10141a; border:1px solid rgba(18,20,24,.18)}
-.card img{display:block; width:100%; height:220px; object-fit:cover}
+.card img{display:block; width:100%; height:500px; object-fit:cover}
 .card .body{padding:14px 14px 16px; background:#0f1217;}
 .name{font-weight:800; letter-spacing:.06em}
 .copy{color:#cfd6df; font-size:13px; line-height:1.5}
