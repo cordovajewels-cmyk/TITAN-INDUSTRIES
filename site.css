@@ -5,7 +5,12 @@
    Apply to: index.html, defense_platforms_titan_industries_solutions_page.html,
              urban_response_titan_industries_solutions_page.html
    ===================================================================== */
-
+/* ALWAYS INCLUDE AT BEGINNING OF CSS FILES, REMOVES ANY OUT OF THE BOX MARGINS OR PADDINGS AND SETS ALL ELEMENTS TO box-sizing of border-box */
+*,
+*::before,
+*::after {
+    box-sizing: border-box; /* SETS THE WIDTH AND HEIGHT OF DIV TO 250/240 i.e. INCLUDES PADDING AND BORDER VALUES  */
+}
 /* -----------------------
    Design Tokens / Theme
 ------------------------*/
